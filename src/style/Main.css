@@ -1,0 +1,121 @@
+.leftcol {
+    /* Rectangle 48 */
+width: 20%;
+display: flex;
+flex-direction: column;
+
+/*background: linear-gradient(211.48deg, rgba(186, 232, 69, 0) 7.1%, rgba(249, 54, 54, 0.26) 27.21%, rgba(255, 255, 255, 0.4) 72.46%);
+border: 1px solid #000000;*/
+
+
+}
+.bg2 {
+    background-color: #7306a1d1;
+    display: flex;
+    width: 100%;
+    height: 94%;
+    
+    background: linear-gradient(179.48deg, rgba(95, 9, 187, 0.86) 10.1%, rgba(189, 157, 236, 0.86) 37.21%, rgba(95, 9, 187, 0.86) 85.46%);
+    border: 1px solid #000000;
+}
+.chat 
+{
+    background: linear-gradient(364.48deg, rgba(219, 178, 240, 0.725) 7.1%, rgba(223, 194, 229, 0.567) 27.21%, rgba(221, 170, 234, 0.4) 60.46%) center;
+    border: 0.5px solid #000000;
+    width: 80%;
+    margin-left: auto;
+    /* height: 83vh; */
+    
+}
+.msgfield{
+    /* width: 100%; */
+    display: flex;
+    margin-top: 45%;
+    
+}
+.mininav{
+    display: flex;
+    justify-content: end;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 8%;
+    background-color: #fff;
+}
+.inpfield{
+    display: flex;
+    justify-content: end;
+    margin-left: 20px;
+    display: flex;
+    width: 95%;
+    padding: 5px;
+    height: 7%;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-top: 20px;
+    
+}
+.inpt {
+    width: 80%;
+    /* height: 70%; */
+    /* margin-top: 5px; */
+    border-radius: 25px;
+    background-color: #3d3d3d;
+    padding: 5px;
+}
+.chats{
+    width: 100%;
+    /* height: 100%; */
+}
+
+.nav {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addchat{
+    /* position: absolute; */
+    /* top: 95%; */
+    /* left: 23%; */
+    background-color: #bdbcbc;
+    height: 50px;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.lilbtn{
+    /* width: 50px; */
+    height: 50px;
+    align-self: center;
+    justify-self: center;
+    margin: 10px;
+    
+    border-radius: 20px;
+    background-color: #422323;
+}
+
+.fail {
+    /* width: 50px; */
+    
+    align-self: center;
+    justify-self: center;
+    margin: 10px;
+    
+    border-radius: 15px;
+    background-color: #422323;
+}
+
+.create-chat-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.create-chat-modal_margin {
+    margin-top: 5px;
+}

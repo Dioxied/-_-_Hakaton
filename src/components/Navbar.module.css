@@ -1,0 +1,29 @@
+.nav_wrapper {
+    display:flex;
+    gap: 1px;
+}
+
+.nav_auth {
+    border: 2px rgb(112, 112, 112) solid;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(65, 65, 65);
+    color: aliceblue;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.nav_auth:hover {
+    transform: scale(1.05);
+    font-weight: bold; /* Увеличивает текст на 10% */
+}
+
+.log_out {
+    display: flex;
+    margin-left: auto;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 2px;
+}

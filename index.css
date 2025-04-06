@@ -1,0 +1,13 @@
+#root {
+    height: 100%;
+}
+html {
+    scrollbar-width: 0;
+}
+html::-webkit-scrollbar{
+    display: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
